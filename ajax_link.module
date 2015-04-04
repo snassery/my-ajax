@@ -54,6 +54,7 @@ function ajax_link_menu() {
  
   return $items;
 }
+}
 /**
  * Ajax callback to display the current time.
  */
