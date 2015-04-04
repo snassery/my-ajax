@@ -1,0 +1,4 @@
+name = "My Ajax Module"
+description = "time zone and users time"
+core = 7.x
+scripts[] = ajax_link.js
