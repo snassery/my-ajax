@@ -1,4 +1,3 @@
-<?php
 /**
  * Implements hook_menu().
  */
@@ -30,7 +29,6 @@ function ajax_link_page() {
     ),
   );
 }
-
 /**
  * Implements hook_menu().
  */
@@ -54,7 +52,7 @@ function ajax_link_menu() {
  
   return $items;
 }
-}
+
 /**
  * Ajax callback to display the current time.
  */
@@ -85,7 +83,7 @@ function ajax_link_callback($ajax) {
  */
 function ajax_link_callback($ajax) {
   // Do any database queries, processing, etc.
-  $time = t('The user last logged in at this time & timezone: !time', array('!time' => date('Y-m-d H:i:s')));
+  $time = t('The current time is: !time', array('!time' => date('Y-m-d H:i:s')));
  
   if ($ajax == 'ajax') {
     $commands = array();
