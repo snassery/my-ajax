@@ -50,10 +50,10 @@ function ajax_link_menu() {
     'page arguments' => array(1),
     'access arguments' => array('access content'),
   );
+}
  
   return $items;
 }
-
 /**
  * Ajax callback to display the current time.
  */
