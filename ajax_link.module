@@ -1,3 +1,4 @@
+<?php
 /**
  * Implements hook_menu().
  */
@@ -105,3 +106,4 @@ function ajax_link_callback($ajax) {
       '#markup' => $time,
     );
   }
+  ?>
